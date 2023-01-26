@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int year;
+ printf("ENter the year:");
+ scanf("%d",&year);
+ // first year jo hy wo 400 ka multiple ho jesy 400 800 1200 or second year 4 ka bh multiple ho but 4 ka multiple me 100 200 300 bh aty hy is liye agy and ki condition lgai hy ky 96 ka leap year hoga but 100 pr ni hoga or issi trha 200 300 pr bh ni but jesy 400 pr aey ga to first condition excute hojaey gi
+ if ((year%400 ==0)||(year%4==0 && year%100!=0)) {
+ printf("Given year is a leap");  }
+ else {
+     printf("GIven year is not a leap year");
+ }
+ 
+   return 0;
+}

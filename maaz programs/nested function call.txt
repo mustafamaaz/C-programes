@@ -1,0 +1,21 @@
+#include<stdio.h>
+int strange(int,int);
+int main(){
+int a=1,b=2,c=3,d=4;
+c = strange(a,b);  
+//abh jo value c ko assign hogi mtlb 2 is liye uper wali c ki value remove hojaey gi mtlb c=3 
+a = strange(c,d);  
+b = strange(strange(c,a), strange(2,3));  
+//  phly c or a solve hoga phir 2 3 iskky bad individual ans ki value again call hogi
+// idher bh b 2 ni hoga balky 8 hoga 
+d = strange(strange(strange(a,b),c),a);
+
+printf("%d  %d  %d  %d",a,b,c,d);
+}
+int strange( int a,int b)
+{
+int c ,d;
+c=a+b;
+d=a-b;
+return c+d;
+}

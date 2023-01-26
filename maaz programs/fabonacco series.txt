@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+int fb_fun(int n) {
+    if (n==1 || n==2)
+    return n;
+    else 
+    return fb_fun(n-1) + fb_fun(n-2);
+}
+
+int main() {
+
+int a=2;
+int result=fb_fun(a);
+printf("%d",result);
+    return 0;
+}

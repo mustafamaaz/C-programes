@@ -1,0 +1,24 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int wl,cm,cy,dwl,iwl;
+  printf("Enter the water level\n");
+  scanf("%d",&wl);
+  printf("Enter the current month\n");
+  scanf("%d",&cm);
+printf("Enter the current year\n");
+  scanf("%d",&cy);
+  printf("Enter the rate of decresing in water level from sep to feb\n");
+  scanf("%d",&dwl);
+  printf("Enter the rate of increasing in water level from march to aug\n");
+  scanf("%d",&iwl);
+  if(cm>=3 && cm<=8) {
+      
+      
+      
+  }
+  
+  
+    return 0;
+}

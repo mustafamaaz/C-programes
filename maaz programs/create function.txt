@@ -1,0 +1,17 @@
+#include <stdio.h>
+void ALU(int a,int b) {
+    int A=a+b;
+     int B=a-b;
+     int C=a*b;
+     int D=a/b;
+      int E=a%b;
+       int F=++a;
+        int G=--a;
+    printf("%d  %d  %d  %d  %d  %d  %d \n",A,B,C,D,E,F,G);
+} 
+int main() {
+   int a=3;
+    int b=4;
+    ALU(a,b);
+    ALU(8,9);
+}

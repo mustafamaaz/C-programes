@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+float fun(float l,float w);
+
+int main() {
+   float l=2.5; float w=3.5;
+ float z=fun(l,w); // idher area return krrha hy func or wo store horha hy z me 
+ float a= fun(3,4);
+ float b=fun(2,2);
+ float c=fun(4,4);
+   printf("The area of rectangle :%.3f %.3f %.3f %.3f",z,a,b,c);
+
+    return 0;
+}
+float fun(float l,float w)
+{
+    float area = l*w;
+    return area; }
