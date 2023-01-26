@@ -1,0 +1,37 @@
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+nav{
+    background-color: rgb(30, 42, 63);
+    overflow: hidden;
+}
+nav a:hover {
+    color: rgb(172, 61, 209);
+}
+h1{
+    color: rgb(124, 190, 214);
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 10px 10px 8px rgb(42, 165, 56);
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(124, 190, 214);
+    text-shadow: 10px 10px 8px rgb(42, 92, 102);
+}
+#right{
+    text-align: center;
+}
+#center{
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+}

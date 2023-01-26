@@ -1,0 +1,17 @@
+table ,tr,td,th{
+    border: 5px solid black;
+    border-collapse: collapse;
+     padding: 10px; 
+    border-spacing: 20px;
+
+}
+th {
+    background-color: chocolate;
+}
+#td1{
+    background-color: cyan;
+}
+
+tr:nth-child(3){
+    color: rgb(0, 186, 108);
+}

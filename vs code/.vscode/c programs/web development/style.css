@@ -1,0 +1,22 @@
+h2{
+    color: rgb(4, 197, 197);
+    font-size: 35px;
+}
+
+
+h1{
+    font-family: 'Freehand', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 10px 5px 3px rgb(126, 126, 126);
+    text-underline-position: below;
+    text-decoration: underline;
+}
+p{
+    font-size: 20px;
+    color: rgb(175, 205, 57);
+}
+.banner{
+    background-color: rgb(233, 167, 251);
+}

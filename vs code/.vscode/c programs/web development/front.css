@@ -1,0 +1,16 @@
+p{
+    background-color: yellow;
+    
+ }
+ table ,tr,td,th{
+    border: 2px solid rgb(104, 104, 101);
+    border-collapse: collapse;
+     padding: 10px; 
+    border-spacing: 10px;
+    background-color: red;
+    color: aliceblue;
+
+}
+#backgound{
+    background-image: url(notes/background.png);
+}

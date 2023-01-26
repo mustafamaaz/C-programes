@@ -1,0 +1,86 @@
+*{
+    border: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+.container1{
+    height: 500px;
+    width: 500px;
+    position: static;
+    background: rgb(143, 182, 182);
+    margin: auto;     /*iski waja sy pura content center me agya */
+    padding-top: 20px;
+    border-style: outset;
+    border-color: black;
+    border: 10px;
+    border-radius: 15px 50px 30px;    /*iski waja sy bule design bna */
+    box-shadow: 5px 6px 4px red;
+    margin-top: 50px;
+   
+}
+.container1 ,h1{
+    text-align: center;
+}
+
+.firstname{
+    padding-top: 10px;
+}
+.firstname ,h2{
+    color: black;
+}
+.firstname ,span{
+    color: red;
+}
+.firstname ,input{
+    border-radius: 20px; color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.lastname{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.lastname ,input:hover{
+    color: blue;
+    transition: 3s;
+}
+
+.password{
+    padding-top: 10px;
+}
+.checkbox{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    padding: 20px;
+    padding-top: 10px;
+}
+
+
+
+.btn ,button{
+    
+    padding: 10px;
+    color: red;
+    background-color: black;
+    width: 80px;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 15px 50px;
+}
+
+.btn ,button:hover{
+    color: wheat;
+    transition: 3s;
+}
+
+
+
+
+

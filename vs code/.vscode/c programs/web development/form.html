@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&display=swap" rel="stylesheet">
+    <title>form.c</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body style=" background: radial-gradient(circle at 50%, rgb(255, 249, 72), rgb(23, 17, 17) 50%, rgb(46, 196, 171) 75%, rgb(50, 68, 61) 75%);" >
+  
+      <form action="">
+        <h1 >  online order form </h1>
+        <br>
+        <h2> <i> Contect Information </i> </h2>
+       
+        <p>Name: * <input type="text" name="name" required></p>
+        <!-- name="?" isdher ka name server me store hoga jb ham maaz likhy gy to servr me name =maaz chala jaey ga -->
+       <fieldset>
+        <legend> <i>Gender *</i></legend>
+        <p>
+          <!-- <input type="radio" name="gender" id="male" required> -->
+           Male <input type="radio" name="gender" id="Male" required> Female <input type="radio" name="gender" id="Female" required>            
+        </p>
+    </fieldset>
+    <p> Address: <textarea name="address" id="" cols="60" rows="5" ></textarea>
+    </textarea> </p>
+    <p> Email: * <input type="email" name="email" id="email" required> </p>
+    <div>
+    <p> Password: * <input type="number" name="password" id="Password" required> </p>
+  </div>
+    <h2> <i> payment information</i></h2>
+  
+    <p> Card type: *
+        <select name="select_card" id="select_card" required>
+            <option value="">--select card--</option required>
+        <option value="master card" > master Card </option>
+        <option value="visa" > visa </option>
+        <option value="rupay" > rupay </option>
+      </select>
+    </p>
+    <p>
+      Card number: *<input type="number" name="card number" id="card number"required>
+    </p>
+    <p>
+        Expire date: *<input type="date" name="expire date" id="expire date"required >
+    </p>
+   <p>
+    CVV: *<input type="password" name="cvv" id="cvv" required>
+   </p>
+   <input  type="submit" value="pay now">
+    </form>
+
+    <footer>
+      <p>TRUST IS VERY IMPORTANT</p>
+    </footer>
+
+</body>
+</html>
